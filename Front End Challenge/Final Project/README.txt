@@ -1,0 +1,1 @@
+Start by opening the loader.html file first

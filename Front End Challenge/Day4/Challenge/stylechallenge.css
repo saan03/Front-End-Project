@@ -1,0 +1,110 @@
+/*I have used external css*/
+/*I have added background-color to the body tag*/
+body{
+  background-color: #EDECE8;
+}
+ 
+ /*I have added font-family,padding,background-color,text-align properties to projects class*/
+ .projects {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 25px 15px;
+  background-color: #EDECE8;
+  text-align: center;
+}
+
+/*I have added display flex property to container class*/
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/*I have added display flex, relative positioing and other properties to item class*/
+.item {
+  width: 300px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px gainsboro;
+}
+
+/*I have added width and height properties to image in item class*/
+.item img {
+  width: 100%;
+  height: auto;
+}
+
+/*I have added absolute positioning,opacity,transition and other properties to info class*/
+.info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 16px;
+  background-color: #7B746A;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s;
+  text-align: center;
+}
+/*I have added opacity*/
+.item:hover .info {
+  opacity: 0.8;
+}
+
+/*I have added font-size and margin-bottom properties to h2 tag of info class*/
+.info h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/*I have added font-size property to p tag of info class*/
+.info p {
+  font-size: 14px;
+}
+/*I have added color,font-size,font-weight,margin to title class*/
+.title {
+  color: #ffffff;
+font-size: 18px;
+font-weight: bold;
+margin: 0;
+}
+/*I have added color,font-size,margin to price class*/
+.price {
+font-size: 18px;
+color: goldenrod;
+margin: 0;
+}
+/*I have added font-size,margin to description class*/
+.description {
+font-size: 14px;
+margin: 0;
+}
+/*I have added font-size and margin-bottom to rating and stock class*/
+.rating,.stock {
+font-size: 16px;
+margin-bottom: 15px;
+}
+/*I have added display: inline-block, transition and other properties */
+button {
+display: inline-block;
+background-color:#8B847B;
+color: #ffffff;
+padding: 10px 20px;
+border-radius: 5px;
+text-decoration: none;
+font-size: 16px;
+transition: background-color 0.3s;
+border: none;
+}
+/*I have added hover effect and color to it*/
+button:hover {
+background-color:goldenrod;
+}
+
+

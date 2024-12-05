@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--I have created a html file for page 3-->
+  <title>Learning Path</title>
+  <!--I have linked the external stylesheet-->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <style>
+    .btn {
+            background-color: #5e17eb;
+            color: white;
+        }
+  </style>
+</head>
+<!--I have added navigation bar with logo, links, button, search bar and icons in it-->
+<body style="background-color: #e6e6ff;">
+  <nav class="navbar sticky-top navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="Logo" width="180" height="80">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " href="mainpage.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Learning Path</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Register</a>
+          </li>
+        </ul>
+        <div class="mx-auto">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-sm btn-outline-secondary" type="button">Submit</button>
+          </form>
+        </div>
+        <div class="d-flex align-items-center ms-auto">
+          <a class="text-reset me-4" href="https://www.linkedin.com/company/open-source-club-crescent/" target="_blank">
+            <i class="fab fa-linkedin fa-2x" style="color: #5e17eb;"></i>
+          </a>
+          <a class="text-reset me-4" href="https://github.com/opensource-club" target="_blank">
+            <i class="fab fa-github fa-2x" style="color: #5e17eb;"></i>
+          </a>
+          <a class="text-reset me-4" href="https://www.instagram.com/open_source_club?igsh=ZWNlejZrc2p2MThj" target="_blank">
+            <i class="fab fa-instagram fa-2x" style="color: #5e17eb;"></i>
+          </a>  
+        </div>
+      </div>
+    </div>
+  </nav>  
+  <!--I have added a header tag to store table values-->
+ 
+  <!--I have added section tag with intro id-->
+  <section id="intro">
+    <!--I have added inline css-->
+    <h1 class="display-6" style="color:black;">Introduction to Learning Paths</h1>
+    <h2 style="color:#000080; font-size: 25px;">Welcome to the Open Source Learning Paths!</h2>
+    <p id="paragraph1" style="color:#4d4d4d">Our club is dedicated to empowering students with the skills needed to
+      thrive in this
+      technological world.
+      Whether you’re just starting out or looking to refine your expertise, our learning paths will help you along the
+      way.</p>
+    <h2 style="color: #4B0082; font-size: 25px;">Choose Your Path</h2>
+    <p id="paragraph1" style="color:#4d4d4d">Select the learning path that best suits your needs</p>
+    <h2 style="color: #483D8B;font-size: 25px;">Learning Paths:</h2>
+    <!--I have used unordered list with square bullet points-->
+    <ul type="square">
+      <li><u>HTML Path</u>: Dive into the foundational language of the web.</li><br>
+      <li><u>CSS Path</u>: Learn how to bring your web pages to life with stunning designs.</li>
+    </ul>
+  </section>
+  <!--I have used article tag with class attribute-->
+  <article class="blog">
+    <h2 style="color: #4B0082;font-size: 25px;">Select Your Skill Level</h2>
+    <h4>How would you describe your current skill level?</h4>
+    <!--I have used ordered list with A,B,C... bullet points-->
+    <ol type="A">
+      <li>Beginner: Just starting out, learning the basics.</li><br>
+      <li>Intermediate: Familiar with basics, looking to expand knowledge.</li><br>
+      <li>Advanced: Ready to tackle complex projects.</li>
+    </ol>
+
+  </article>
+  <!--I have used div tag to store buttons within tables-->
+  <div>
+    <h2 style="margin-left: 62px;font-size: 25px;">Get Started</h2>
+    <table>
+      <tr>
+        <div class="m-10">
+        <td>
+          <!--I have added button for navigation with attributes-->
+          
+          <button type="submit" class="btn m-4" id="submitBtn" onclick="location.href='blackpage.html'"
+            style="background-color: black; color: white;">Learn HTML</button>
+        </td>
+        <td> <button type="submit" class="btn m-4" id="submitBtn" onclick="location.href='whitepage.html'"
+            style="background-color: white; color: black;">Learn
+            CSS</button>
+        </td>
+      </div>
+      </tr>
+    </table>
+  </div>
+  <a href="mailto:Opensource.crescent@gmail.com">
+    <img src="chat.png" alt="chat" style="position: fixed;bottom: 0px;right: 0px;" width="10%" height="15%"></a>
+  <footer class=" text-center text-lg-start">
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-12 text-center mb-2">
+          <p>Copyright © 2024 OS Club, Inc. All Rights Reserved.</p>
+        </div>
+        <div class="col-6 text-center">
+          <a href="#!" class="text-dark mx-2">Terms of Service</a>
+          <a href="#!" class="text-dark mx-2">Privacy Policy</a>
+          <a href="#!" class="text-dark mx-2">Cookie Settings</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+<!--This line marks the end of html-->

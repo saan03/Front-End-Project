@@ -3,7 +3,7 @@ This repository contains all the projects and challenges I worked on during the 
 - Each folder represents each day's challenge or the final project.
 - The Final Project folder includes all assets and additional scripts used to build the final submission.
 
-Achievements
-- Ranked 1st place in all four daily challenges
-- Overall Winner of the Bootcamp
+**Achievements**
+- Ranked **1st place** in all four daily challenges
+- **Overall Winner** of the Bootcamp
 
